@@ -1,0 +1,4 @@
+Summ = 395061382716
+Average = 444444
+Summ of 100 random integers = 39815981
+Median = 388313.0
