@@ -23,20 +23,15 @@ for elem in data:
         s = Square(elem['size']['a'])
         l.append(s)
 
-jsonstr = json.dumps(l[0].__dict__)
-print(jsonstr)
+# jsonstr = json.dumps(l[0].__dict__)
+# print(jsonstr)
 
-with open('lab2/output.json', 'a') as file:
+with open('lab2/output.json', 'w') as file:
     file.write('[\n')
     for elem in l:
-        if elem == l[-1]:
-            jsonstr = json.dumps(elem.__dict__, indent=2)
-            file.write(jsonstr)
-        else:
-            jsonstr = json.dumps(elem.__dict__, indent=2) + ',\n'
-            file.write(jsonstr)
+        jsonstr = json.dumps(elem.__dict__,  indent=2)
+        if elem != l[-1]:
+            jsonstr += ',\n'
+        file.write(jsonstr)
     file.write('\n]\n')
-
-
-
 
