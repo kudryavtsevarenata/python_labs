@@ -1,0 +1,5 @@
+Drawing triangle with sides = 2, 3, 2
+Drawing circle with radius = 56
+Drawing rectangle with sides = 8, 19
+Drawing square with side = 50
+Drawing square with side = 5

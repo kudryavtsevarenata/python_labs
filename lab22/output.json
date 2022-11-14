@@ -1,0 +1,28 @@
+{
+    "amount": 5,
+    "obj": [
+        {
+            "a": 2,
+            "b": 3,
+            "c": 2,
+            "name": "Triangle"
+        },
+        {
+            "r": 56,
+            "name": "Circle"
+        },
+        {
+            "a": 8,
+            "b": 19,
+            "name": "Rectangle"
+        },
+        {
+            "a": 50,
+            "name": "Square"
+        },
+        {
+            "a": 5,
+            "name": "Square"
+        }
+    ]
+}
