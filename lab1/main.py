@@ -3,7 +3,7 @@ from statistics import median
 sum = 0
 mx_num = 888888
 n = mx_num + 1
-for i in range(0, mx_num+1):
+for i in range(0, n):
     sum += i
 print("Summ =", sum)
 print("Average =", int(sum/n))
