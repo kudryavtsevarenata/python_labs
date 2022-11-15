@@ -1,12 +1,10 @@
 import random
 from statistics import median
-sum = 0
 mx_num = 888888
 n = mx_num + 1
-for i in range(0, n):
-    sum += i
-print("Summ =", sum)
-print("Average =", int(sum/n))
+sm = sum([x for x in range(0, n)])
+print("Summ =", sm)
+print("Average =", int(sm/n))
 
 a = random.sample(range(0, mx_num), 100)
 sm = 0
