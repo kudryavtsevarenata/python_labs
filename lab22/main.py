@@ -8,13 +8,11 @@ from circle import Circle
 
 def write(data):
     jsonstr = json.dumps(data, indent = 4)
-    with open('./lab22/output.json', 'w') as file:
-        file.write(jsonstr)
+    open('./lab22/output.json', 'w').write(jsonstr)
 
 
 def read_from_json():
-    with open('./lab22/output.json', 'r') as file:
-        return json.load(file)
+    return json.load(open('./lab22/output.json', 'r'))
 
 
 tr = Triangle(2, 3, 2)
